@@ -1,0 +1,24 @@
+.scrollable-cards {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-x: scroll;
+  overflow-y: visible; /* Ensure overflow is visible in the y-direction */
+}
+
+.ai-bg-image {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(60, 26, 112, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../../../public/img/ai_image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.suggestion-card {
+  transition: transform 0.4s;
+}
+.suggestion-card:hover {
+  transform: scale(1.1);
+}

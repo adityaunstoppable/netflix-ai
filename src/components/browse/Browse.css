@@ -1,0 +1,19 @@
+.scrollable-cards::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.scrollable-cards {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-x: scroll;
+  overflow-y: visible; /* Ensure overflow is visible in the y-direction */
+}
+.movie-card-container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card-container:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  overflow: visible;
+}
