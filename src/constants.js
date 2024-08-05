@@ -55,8 +55,8 @@ export const ASK_AI_PATH = 'ask-ai'
 export const BROWSE_PATH = '/browse'
 export const SIGNUP_PATH = '/'
 
-export const OPEN_AI_API_KEY = process.env.REACT_APP_OPEN_AI_API_KEY_SECRET
-export const OPEN_AI_BASE_URL = 'https://api.openai.com/v1'
+// export const OPEN_AI_API_KEY = process.env.REACT_APP_OPEN_AI_API_KEY_SECRET
+// export const OPEN_AI_BASE_URL = 'https://api.openai.com/v1'
 
 export const GEMINI_AI_API_KEY = process.env.REACT_APP_GEMINI_SECRET_KEY
 export const GEMINI_AI_BASE_URL = 'https://api.google.dev/gemini/v1'
